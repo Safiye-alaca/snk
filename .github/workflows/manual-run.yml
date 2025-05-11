@@ -14,6 +14,7 @@ jobs:
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: safiye-alaca
+          theme: dark
           outputs: |
             dist/only-svg/github-contribution-grid-snake.svg
             dist/only-svg/github-contribution-grid-snake-dark.svg?palette=github-dark
